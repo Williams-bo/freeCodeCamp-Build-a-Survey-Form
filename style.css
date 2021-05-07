@@ -1,0 +1,101 @@
+body {
+    background-image:linear-gradient(to right, #602767e0, #275e67e0), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#title {
+    text-align: center;
+    color: rgb(238, 234, 234);
+    margin-top: 2em;
+    letter-spacing: 2px;
+}
+#description {
+    text-align: center;
+    color: rgb(238, 234, 234);
+    font-size: 21px;
+    font-style: italic;
+}
+span {
+    font-size: 17px;
+    position: relative;
+    top: -1px;
+}
+#survey-form {
+    border-radius: 0.3em;
+    width: 48%;
+    margin: 2em auto;
+    padding: 2em 2.5em;
+    background-color: rgb(55, 1, 94);
+    opacity: 0.7;
+}
+label {
+    color: rgb(238, 234, 234);
+    font-size: 21px;
+}
+#name, #email, #number {
+    width: 100%;
+    height: 2em;
+    font-size: 18px;
+    padding-left: 0.8em;
+    margin: 0.5em 0 1.5em;
+    outline-color: #602767e0;
+    box-sizing: border-box;
+    border-radius: 0.3em;
+    border: none;
+}
+select {
+    width: 100%;
+    height: 2em;
+    padding-left: 0.8em;
+    border-radius: 0.3em;
+    font-size: 18px;
+    margin: 0.5em 0 1.5em;
+}
+#radioo label {
+    display: block;
+}
+#radioo input {
+    width: 2em;
+    height: 1.5em;
+    margin: 0.5em 0 0;
+    position: relative;
+    top:2px;
+}
+#dropdown-label {
+    margin: 2em 0 0;;
+}
+#checkboxes label {
+    display: block;
+}
+#checkboxes input {
+    width: 2em;
+    height: 1.5em;
+    margin: 0.5em 0 0;
+    position: relative;
+    top:2px;
+}
+#checkboxes {
+    margin-bottom: 2em;
+}
+#texta {
+    padding-top: 28em;
+}
+#teta-field {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 0.5em;
+    font-size: 18px;
+}
+button {
+    color: rgb(238, 234, 234);
+    background-color: mediumturquoise;
+    margin: 2em auto;
+    justify-content: center;
+    padding: 0.5em 0em;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    outline:#602767e0;
+}
